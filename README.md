@@ -1,6 +1,7 @@
 # Push Swap
 
-This project is part of the 42 curriculum. It involves sorting two stacks (a and b) using various operations. The full guidelines for the project can be found in `en.subject.pdf`.
+This project is part of the 42 curriculum. It involves sorting two stacks (a and b) using various operations. \
+The full guidelines for the project can be found in `en.subject.pdf`.
 
 ## Rules
 
