@@ -27,7 +27,10 @@ The full guidelines for the project can be found in `en.subject.pdf`.
 
 ```bash
 ./push_swap <any amount of numbers>
+or
+ARG="a series of numbers"; ./push_swap $ARG | ./checker $ARG
 ```
+
 ## lessons learned
 parsing numbers \
 concept of a stack \
