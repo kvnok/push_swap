@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include "../libft/src/libft.h"
+# include "ft_printf.h"
 
 typedef struct s_data
 {

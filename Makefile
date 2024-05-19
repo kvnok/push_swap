@@ -4,7 +4,8 @@ CC = cc
 
 SRC = ./src/errorcheck.c ./src/fillstack.c ./src/helpers.c ./src/indexes.c \
 ./src/main.c ./src/printing.c ./src/push.c ./src/radix.c ./src/support.c\
-./src/reverse.c ./src/rotate.c ./src/sorter.c ./src/swap.c
+./src/reverse.c ./src/rotate.c ./src/sorter.c ./src/swap.c \
+./src/ft_charsnum.c ./src/ft_hexetc.c ./src/ft_printf.c ./src/ft_printing.c
 
 SRCDIR = ./src
 OBJ = $(SRC:./src/%.c=./obj/%.o)

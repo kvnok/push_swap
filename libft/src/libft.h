@@ -16,7 +16,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include "get_next_line.h"
-# include "ft_printf.h"
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);

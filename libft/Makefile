@@ -10,8 +10,7 @@ SRC = ./src/ft_calloc.c ./src/ft_isdigit.c ./src/ft_memcmp.c ./src/ft_putchar_fd
 ./src/ft_putnbr_fd.c ./src/ft_strdup.c ./src/ft_strlcpy.c ./src/ft_strnstr.c \
 ./src/ft_tolower.c ./src/ft_bzero.c ./src/ft_isascii.c ./src/ft_memchr.c \
 ./src/ft_memset.c ./src/ft_putstr_fd.c ./src/ft_striteri.c ./src/ft_strlen.c \
-./src/ft_strrchr.c ./src/ft_toupper.c ./src/get_next_line.c ./src/get_next_line_utils.c \
-./src/ft_charsnum.c ./src/ft_hexetc.c ./src/ft_printf.c ./src/ft_printing.c
+./src/ft_strrchr.c ./src/ft_toupper.c ./src/get_next_line.c ./src/get_next_line_utils.c
 
 SRCDIR = ./src
 OBJ = $(SRC:./src/%.c=./obj/%.o)
@@ -36,3 +35,34 @@ fclean: clean
 	@rm -rf $(NAME)
 
 re: fclean all
+
+
+#NAME = webserv
+#CC = c++
+#HEADER ?= $(shell find ./include -iname "*.hpp")
+#FLAGS = #-Wall -Wextra -Werror
+#SRCS := $(shell find ./src -iname "*.cpp")
+#OBJS := $(addprefix obj/,$(notdir $(SRCS:.cpp=.o)))
+#CHECKFLAGS = valgrind --leak-check=full
+#
+#all: $(NAME)
+#
+#check: all
+#	$(CHECKFLAGS) ./$(NAME)
+#
+#$(NAME): $(OBJS)
+#	@$(CC) $(FLAGS) -o $@ $^
+#
+#obj/%.o: src/%.cpp $(HEADER)
+#	@mkdir -p obj
+#	@$(CC) -c $(FLAGS) -o $@ $<
+#
+#clean:
+#	rm -rf obj
+#
+#fclean: clean
+#	rm -rf $(NAME)
+#
+#re: fclean all
+#
+#.PHONY: all clean fclean re
